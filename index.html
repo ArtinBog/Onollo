@@ -1,0 +1,636 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen, projection"/>
+    <title>
+      Onollo Social Media Manager (Facebook & Instagram)
+    </title>
+  </head>
+  <body>
+    <header>
+      <a href="landing.html" alt="Onollo Landing page"><img src="imgs/Onollo_logo.png" alt="Onollo Logo" name="Onollo_logo" id="Onollo_logo"></a>
+      <!-- onollo logo (css) -->
+      <ul id="logo">
+        <li class="o"></li>
+        <li class="n"></li>
+        <li class="o" id="o1"></li>
+        <li class="l"></li>
+        <li class="l" id="l1"></li>
+        <li class="o" id="o2"></li>
+      </ul>
+
+      <!-- sign up button -->
+      <button class="button_sign_up" id="button_sign_up">Schedule Postings</button>
+    </header>
+    <main>
+      <!-- <aside>
+        <ul>
+          <li>
+            <article class="fb_card">
+              <div class="fb_header">
+              </div>
+              <div class="tn_your_business"></div>
+              <h3 class="title_your_business">My business</h3>
+              <p class="fb_post_descr">#equality</p>
+              <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+            </article>
+          </li>
+        </ul>
+      </aside> -->
+
+    <!-- search bar -->
+      <form class="search" name="search" id="home_search">
+        <input type="search" class="search_input" id="home_search_input" placeholder="Paste your store url" />
+        <input type="submit" for="search" class="search_submit" id="home_search_submit" value=""/>
+      </form>
+
+      <!-- Results -->
+      <ul class="grid">
+        <!-- first row: FB -->
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Papa plans to use their new funding to expand into 5 states.</p>
+            <img class="post_img" src="imgs/fb-img1.png" onkeypress="" alt=""/>
+            <div class="img_details"><span class="img_details_span">TECHCRUNCH - 2 MIN READ</span><br/>YC-grad Papa raises $2.4M for its "grandkids-on-demand" service.</div>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">#equality</p>
+            <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">These are world's the most (and least) powerful passports
+              in terms of visa-free travel: <br/> <span>...Continue Reading</span></p>
+            <img class="post_img" src="imgs/fb-img3.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Everyone love an underdog. <b>Roger Federer #JustDoIt</b></p>
+            <img class="post_img" src="imgs/fb-img4.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+
+        <!-- second row: IG -->
+        <li class="suggested_post" id="ig_1">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-5.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-6.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-7.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post" id="ig_4">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-8.png" onkeypress="" alt=""/>
+            <p><span class="ig_my_business_name">mybusiness</span> El Cap was a center of the climbing universe; looking at it, it doesn't look like you should <span>...more</span></p>
+          </article>
+        </li>
+
+        <!-- fb row -->
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Papa plans to use their new funding to expand into 5 states.</p>
+            <img class="post_img" src="imgs/fb-img1.png" onkeypress="" alt=""/>
+            <div class="img_details"><span class="img_details_span">TECHCRUNCH - 2 MIN READ</span><br/>YC-grad Papa raises $2.4M for its "grandkids-on-demand" service.</div>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">#equality</p>
+            <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">These are world's the most (and least) powerful passports
+              in terms of visa-free travel: <br/> <span>...Continue Reading</span></p>
+            <img class="post_img" src="imgs/fb-img3.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Everyone love an underdog. <b>Roger Federer #JustDoIt</b></p>
+            <img class="post_img" src="imgs/fb-img4.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+
+        <!-- second row: IG -->
+        <li class="suggested_post" id="ig_1">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-5.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-6.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-7.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post" id="ig_4">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-8.png" onkeypress="" alt=""/>
+            <p><span class="ig_my_business_name">mybusiness</span> El Cap was a center of the climbing universe; looking at it, it doesn't look like you should <span>...more</span></p>
+          </article>
+        </li>
+
+        <!-- fb row -->
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Papa plans to use their new funding to expand into 5 states.</p>
+            <img class="post_img" src="imgs/fb-img1.png" onkeypress="" alt=""/>
+            <div class="img_details"><span class="img_details_span">TECHCRUNCH - 2 MIN READ</span><br/>YC-grad Papa raises $2.4M for its "grandkids-on-demand" service.</div>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">#equality</p>
+            <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">These are world's the most (and least) powerful passports
+              in terms of visa-free travel: <br/> <span>...Continue Reading</span></p>
+            <img class="post_img" src="imgs/fb-img3.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Everyone love an underdog. <b>Roger Federer #JustDoIt</b></p>
+            <img class="post_img" src="imgs/fb-img4.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+
+        <!-- second row: IG -->
+        <li class="suggested_post" id="ig_1">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-5.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-6.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-7.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post" id="ig_4">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-8.png" onkeypress="" alt=""/>
+            <p><span class="ig_my_business_name">mybusiness</span> El Cap was a center of the climbing universe; looking at it, it doesn't look like you should <span>...more</span></p>
+          </article>
+        </li>
+
+        <!-- fb row -->
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Papa plans to use their new funding to expand into 5 states.</p>
+            <img class="post_img" src="imgs/fb-img1.png" onkeypress="" alt=""/>
+            <div class="img_details"><span class="img_details_span">TECHCRUNCH - 2 MIN READ</span><br/>YC-grad Papa raises $2.4M for its "grandkids-on-demand" service.</div>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">#equality</p>
+            <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">These are world's the most (and least) powerful passports
+              in terms of visa-free travel: <br/> <span>...Continue Reading</span></p>
+            <img class="post_img" src="imgs/fb-img3.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Everyone love an underdog. <b>Roger Federer #JustDoIt</b></p>
+            <img class="post_img" src="imgs/fb-img4.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+
+        <!-- second row: IG -->
+        <li class="suggested_post" id="ig_1">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-5.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-6.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-7.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post" id="ig_4">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-8.png" onkeypress="" alt=""/>
+            <p><span class="ig_my_business_name">mybusiness</span> El Cap was a center of the climbing universe; looking at it, it doesn't look like you should <span>...more</span></p>
+          </article>
+        </li>
+
+        <!-- fb row -->
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Papa plans to use their new funding to expand into 5 states.</p>
+            <img class="post_img" src="imgs/fb-img1.png" onkeypress="" alt=""/>
+            <div class="img_details"><span class="img_details_span">TECHCRUNCH - 2 MIN READ</span><br/>YC-grad Papa raises $2.4M for its "grandkids-on-demand" service.</div>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">#equality</p>
+            <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">These are world's the most (and least) powerful passports
+              in terms of visa-free travel: <br/> <span>...Continue Reading</span></p>
+            <img class="post_img" src="imgs/fb-img3.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Everyone love an underdog. <b>Roger Federer #JustDoIt</b></p>
+            <img class="post_img" src="imgs/fb-img4.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+
+        <!-- second row: IG -->
+        <li class="suggested_post" id="ig_1">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-5.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-6.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-7.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post" id="ig_4">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-8.png" onkeypress="" alt=""/>
+            <p><span class="ig_my_business_name">mybusiness</span> El Cap was a center of the climbing universe; looking at it, it doesn't look like you should <span>...more</span></p>
+          </article>
+        </li>
+
+        <!-- fb row -->
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Papa plans to use their new funding to expand into 5 states.</p>
+            <img class="post_img" src="imgs/fb-img1.png" onkeypress="" alt=""/>
+            <div class="img_details"><span class="img_details_span">TECHCRUNCH - 2 MIN READ</span><br/>YC-grad Papa raises $2.4M for its "grandkids-on-demand" service.</div>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card" id="equality">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">#equality</p>
+            <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">These are world's the most (and least) powerful passports
+              in terms of visa-free travel: <br/> <span>...Continue Reading</span></p>
+            <img class="post_img" src="imgs/fb-img3.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Everyone love an underdog. <b>Roger Federer #JustDoIt</b></p>
+            <img class="post_img" src="imgs/fb-img4.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+
+        <!-- second row: IG -->
+        <li class="suggested_post" id="ig_1">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-5.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-6.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-7.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post" id="ig_4">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-8.png" onkeypress="" alt=""/>
+            <p><span class="ig_my_business_name">mybusiness</span> El Cap was a center of the climbing universe; looking at it, it doesn't look like you should <span>...more</span></p>
+          </article>
+        </li>
+
+        <!-- facebook row -->
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Papa plans to use their new funding to expand into 5 states.</p>
+            <img class="post_img" src="imgs/fb-img1.png" onkeypress="" alt=""/>
+            <div class="img_details"><span class="img_details_span">TECHCRUNCH - 2 MIN READ</span><br/>YC-grad Papa raises $2.4M for its "grandkids-on-demand" service.</div>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">#equality</p>
+            <img class="post_img" src="imgs/fb-img2.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">These are world's the most (and least) powerful passports
+              in terms of visa-free travel: <br/> <span>...Continue Reading</span></p>
+            <img class="post_img" src="imgs/fb-img3.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="fb_card">
+            <div class="fb_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">My business</h3>
+            <p class="fb_post_descr">Everyone love an underdog. <b>Roger Federer #JustDoIt</b></p>
+            <img class="post_img" src="imgs/fb-img4.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+
+        <!-- second row: IG -->
+        <li class="suggested_post" id="ig_1">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-5.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-6.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-7.png" onkeypress="" alt=""/>
+          </article>
+        </li>
+        <li class="suggested_post" id="ig_4">
+          <article class="ig_card">
+            <div class="ig_header">
+            </div>
+            <div class="tn_your_business"></div>
+            <h3 class="title_your_business">mybusiness</h3>
+            <img class="post_img" src="imgs/ig-img-8.png" onkeypress="" alt=""/>
+            <p><span class="ig_my_business_name">mybusiness</span> El Cap was a center of the climbing universe; looking at it, it doesn't look like you should <span>...more</span></p>
+          </article>
+        </li>
+      </ul>
+
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

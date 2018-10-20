@@ -1,0 +1,499 @@
+/* @media screen (max: 400px);
+  .grid {
+    display: inline-block;
+    /* align-content: center; */
+    /* direction: ltr; */
+    /* height: auto;
+    width: 100% */
+    /* margin: 20 auto; */
+    /* padding: auto;
+    column-count: 1; */
+    /* width: auto; */
+    /* column-gap: 1em; */
+  /* }
+  @media screen (max: 750px);
+    .grid {
+      display: inline-block; */
+      /* align-content: center; */
+      /* direction: ltr; */
+      /* height: auto;
+      width: 100% */
+      /* margin: 20 auto; */
+      /* padding: auto;
+      column-count: 2; */
+      /* width: auto; */
+      /* column-gap: 1em;
+    }
+@media screen (max: 900px);
+  .grid {
+    display: inline-block; */
+    /* align-content: center; */
+    /* direction: ltr; */
+    /* height: auto;
+    width: 100% */
+    /* margin: 20 auto; */
+    /* padding: auto;
+    column-count: 3; */
+    /* width: auto; */
+    /* column-gap: 1em;
+  }
+@media screen (min: 901px); */
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  text-align: center;
+  display: block;
+  overflow: auto;
+  vertical-align: middle;
+}
+
+#logo {
+  display: none;
+  float: left;
+  text-align: left;
+  display: inline;
+  margin: auto;
+  padding: auto;
+
+}
+
+#button_sign_up {
+  background-color: green;
+  border-radius: 36px;
+  border-color: none;
+  height: 36px;
+  width: auto;
+  font-size: 14px;
+  padding: 0 20px;
+  vertical-align: text-top;
+  color: white;
+  float: right;
+  margin-top: 15px;
+  font-weight: normal;
+  border-color: transparent;
+}
+
+#button_sign_up:hover {
+  box-shadow: 0 0 4px green;
+}
+
+.o, .n, .l {
+  display: none;
+  margin-left: 4px;
+  /* display: inline-block; */
+  background-color: white;
+  border-radius: 100%;
+  border: solid 1px white;
+  width: 33px;
+  height: 33px;
+  box-shadow: inset 1px 1px 4px 3px #efefef;
+}
+
+.n {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: inset 1px 1px 4px 3px #efefef;
+}
+
+#o1 {box-shadow: inset 1px 1px 4px 3px #efefef;}
+#o2 {box-shadow: inset 1px 1px 4px 3px #efefef;}
+
+.l {
+  border-radius: 0;
+  height: 55px;
+  width: 11px;
+  box-shadow: inset 1px 1px 4px 3px #efefef;
+}
+
+.search {
+  display: block;
+  float: center;
+  border: solid 1px white;
+  overflow: auto;
+  border-color: lightgrey;
+  background-color: solid white;
+  margin-top: 20px;
+
+}
+
+.search_input {
+  padding: 0 15px;
+  width: 90%;
+  height: 36px;
+  border: none;
+  margin: 0;
+  background-color: white;
+  border-right: solid 1px lightgrey;
+}
+
+#home_search_submit {
+  float: right;
+  padding: 0;
+  margin: 0
+  background-color: white;
+  height: 36px;
+  width: 7.5%;
+  border: none;
+  background: url(imgs/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid {
+  text-align: center;
+  padding-top: 20px;
+  display: inline-block;
+  height: auto;
+  width: 100%
+  padding: auto;
+  column-count: 4;
+  column-width: 260px;
+  margin: auto 0 auto -20px;
+  flex-direction: column;
+  align-content: center;
+  /* align-items: flex-end; */
+  /* align-content: space-between; */
+  /* overflow: auto; */
+  /* position: relative; */
+  /* align-content: center; */
+  /* direction: ltr; */
+  /* margin: 20 auto; */
+  /* width: auto; */
+  /* column-gap: 1em; */
+}
+
+.suggested_post {
+  text-align: left;
+  display: inline-flex;
+  background-color: white;
+  border: 1px solid lightgrey;
+  width: 260px;
+  height: auto;
+  padding: 0;
+  list-style-type: none;
+  margin: 10px auto;
+  box-shadow: 0 0 25px lightgrey;
+  align-content: center;
+  /* flex: auto; */
+  /* overflow: auto; */
+  /* float: auto; */
+  /* position: static; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* position: relative; */
+  /* display: inline-block; */
+  /* float: left; */
+}
+
+/* #ig_1 {
+  clear: absolute;
+}
+#ig_4 {
+    position: absolute;
+} */
+
+
+.fb_card {
+  display: inline-block;
+  overflow: auto;
+  float: left;
+  clear: left;
+  background-color: white;
+}
+
+.fb_header {
+  overflow: auto;
+  background: solid;
+  background-color: #4167B2;
+  width: 100%;
+  height: 30px;
+}
+
+.post_img {
+  width: 100%;
+}
+
+.ig_header {
+  background: solid;
+  background-color: white;
+  padding-top: 10px;
+  width: 100%;
+  height: 30px;
+  background-image: url("imgs/ig-logo.png");
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ig_card {
+  background-color: white;
+}
+
+.ig_my_business_name {
+  font-weight: bolder;
+  color: black;
+}
+
+.tn_your_business {
+  float: left;
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  background-color: #f9f9f9;
+  margin: 10px;
+  box-shadow: inset 1px 1px 5px lightgrey;
+
+}
+
+
+.title_your_business {
+  font-size: 0.8em;
+  font-weight: bolder;
+  background-color: white;
+}
+
+p {
+  overflow: auto;
+  clear: left;
+  font-size: 0.7em;
+  font-weight: normal;
+  margin: 10px;
+  line-height: 1.3em;
+  background-color: white;
+
+}
+
+span {
+  color: lightgrey;
+  font-weight: 400;
+  background-color: inherit;
+}
+
+b {
+  background-color: white;
+}
+
+.img_details {
+  background-color: #fff;
+  font-size: 0.7em;
+  padding: 10px;
+  margin-top: -3px;
+  line-height: 1.3em;
+  font-weight: 400;
+
+}
+
+.img_details_span {
+  font-size: 0.7em;
+  color: grey;
+}
+
+/* Landing CSS  */
+/* .input_landing {
+  display: block;
+  float: left;
+  overflow: auto;
+  height: 2em;
+  width: 20%;
+} */
+
+.input_email_landing {
+  float: left;
+  background: solid red;
+  padding: 1em 3em 1em 1em;
+  min-width: 15em;
+  border-radius: 40px;
+  border: solid 1px grey;
+  font-size: 0.8em;
+  box-shadow: inset 0px 1px 1px 1px lightgrey;
+  font-weight: lighter;
+  background-color: #f9f9f9;
+
+}
+
+/* input::placeholder {
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+input:active {
+    font-weight: lighter;
+    background-color: white;
+    border-color: blue;
+} */
+/*
+input::selection {
+    font-weight: lighter;
+    background-color: white;
+    border-color: blue;
+}
+
+input::after {
+    font-weight: lighter;
+    background-color: white;
+    border-color: blue;
+}
+
+input::first-line {
+    font-weight: lighter;
+    /* background-color: white; */
+    /* border-color: blue;
+} */
+
+#Onollo_logo {
+  float: left;
+  height: 2em;
+  margin: 1em;
+}
+
+
+#landing_content {
+  width: fixed;
+  display: block;
+  float: auto;
+  /* clear: left; */
+  overflow: auto;
+  margin-left: 2em;
+  margin-top: 8%;
+  background-color: transparent;
+  list-style-type: none;
+  min-height: 100%;
+  margin-bottom: 100px;
+}
+
+#Punch_Line {
+  /* display: block; */
+  /* overflow: auto; */
+  margin-bottom: 0.5em;
+  /* float: left; */
+  font-size: 3em;
+  font-weight: normal;
+}
+
+#Landing_Subtitle {
+  /* display:block; */
+  /* float: left; */
+  /* overflow: auto; */
+  margin-top: -1em;
+  color: darkgrey;
+  font-weight: normal;
+}
+
+#input_submit_landing {
+  /* display: block; */
+  border-radius: 40px;
+  /* float: auto; */
+  /* overflow: auto; */
+  margin-left: 0.5em;
+  margin-right: 4em;
+  padding: 1em 2em;
+  color: white;
+  font-size: 0.8em;
+  font-weight: normal;
+  background-color: green;
+}
+
+li#landing_content_li {
+  /* display: inline; */
+  float: left;
+  /* width: 100%; */
+  /* overflow: auto; */
+  /* height: auto; */
+}
+
+li#landing_animation_li {
+  /* display: inline; */
+  width: 40%;
+  float: auto;
+  margin-right: 0;
+  overflow: hidden;
+  /* overflow: hidden; */
+  /* margin-left: 1em; */
+  /* margin-top: 10%; */
+  /* clear: right; */
+  /* overflow: auto; */
+  /* float: auto; */
+}
+
+#landing_animation_id {
+  /* width: ; */
+  height: auto;
+  border: none;
+  width: 500px;
+  height: auto;
+  margin-top: -1.3em;
+  margin-bottom: -1.8em;
+  /* overflow: hidden; */
+  /* margin-top: -1.3em; */
+}
+
+input:focus { /* For Firefox */
+    outline: none;
+    background-color: white;
+    box-shadow: none;
+    border-color: green;
+}
+
+footer {
+  display: block;
+  overflow: auto;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  /* border: solid 1px red; */
+  height: 50px;
+}
+
+a#See_demo {
+  display: block;
+  width: 100%;
+  font-size: .75em;
+  /* text-align: center; */
+  text-decoration: none;
+  color: grey;
+  /* border: solid 1px red; */
+  font-weight: normal;
+}
+
+a#See_demo:hover {
+  color: black;
+}
+
+/* body {
+   background-image: url("Landing.gif");
+ } */
+/* @keyframes example {
+    from {background-color: green;}
+    to {background-color: yellow;}
+} */
+
+/* The element to apply the animation to */
+/* #input_submit_landing {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: example;
+    animation-duration: 4s;
+} */
+
+
+
+/*
+input ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  /* color: pink;
+} */
+/* ::-moz-placeholder { /* Firefox 19+ */
+  /* color: pink;
+} */
+/* :-ms-input-placeholder { /* IE 10+ */
+  /* color: pink;
+}  */
+/* :-moz-placeholder { /* Firefox 18- */
+  /* color: pink; */
+/* } */
